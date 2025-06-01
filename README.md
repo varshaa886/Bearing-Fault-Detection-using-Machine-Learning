@@ -40,7 +40,7 @@ Outer Fault
 Note: Original data provided in .xlsx files, combined and preprocessed into .csv format for analysis.
 
  **Methodology**
- Data Preprocessing
+Data Preprocessing
 Label encoding using LabelEncoder
 
 Feature extraction:
@@ -84,10 +84,10 @@ Confusion matrix heatmap
  Feature Importance: 
  Identify most impactful features
  
- Total Energy (FFT) — overall power in the frequency domain
- Signal Entropy (FFT) — randomness or unpredictability of the signal
- Dominant Frequency (FFT) — peak frequency component
- Kurtosis (time-domain) — sharpness or “peakedness” of the signal
- Peak Amplitude (time-domain) — maximum vibration level
- Variance (time-domain) — how spread out the signal is
- Mean (time-domain) — average signal level
+ Total Energy (FFT) — overall power in the frequency domain,
+ Signal Entropy (FFT) — randomness or unpredictability of the signal,
+ Dominant Frequency (FFT) — peak frequency component,
+ Kurtosis (time-domain) — sharpness or “peakedness” of the signal,
+ Peak Amplitude (time-domain) — maximum vibration level,
+ Variance (time-domain) — how spread out the signal is,
+ Mean (time-domain) — average signal level,
