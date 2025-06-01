@@ -1,7 +1,7 @@
 # Bearing-Fault-Detection-using-Machine-Learning
 This repository contains the implementation for an Industrial Data Analytics mini-project focused on early fault detection in bearings using machine learning. The goal is to classify the health status of bearings (healthy or faulty) based on sensor data, enhancing equipment reliability and enabling predictive maintenance.
 
- Project Overview
+ **Project Overview**
 Course: ME 217 — Industrial Data Analytics
 
 Team:
@@ -14,20 +14,20 @@ Sri Varsha (230003074)
 
 Project: CWRU Bearing Fault Detection — Team 3.1
 
- Objectives
+ **Objectives**
  Accurately classify bearing conditions (Healthy, Ball Fault, Inner Fault, Outer Fault)
  Minimize false negatives (especially faults misclassified as “Healthy”)
  Achieve a weighted F1-score > 0.9 on the test dataset
  Provide feature insights and visualizations for interpretability
 
- Dataset
+ **Dataset**
 Source: Acceleration data from sensors near motor bearings
 
 Samples: ~12,000
 
 Collected with: HP motor at various loads and speeds
 
-Fault Types:
+**Fault Types:**
 
 Healthy
 
@@ -39,7 +39,7 @@ Outer Fault
 
 Note: Original data provided in .xlsx files, combined and preprocessed into .csv format for analysis.
 
- Methodology
+ **Methodology**
  Data Preprocessing
 Label encoding using LabelEncoder
 
@@ -70,11 +70,11 @@ Train/test split (80%-20%)
 
 Classification report with precision, recall, F1-score
 
-Weighted F1-score achieved: ~0.92
+**Weighted F1-score achieved: ~0.92**
 
 Confusion matrix heatmap
 
- Outputs
+ **Outputs**
  Classification Report: Precision, Recall, F1 per class
 
  Weighted F1-score: ~0.92
