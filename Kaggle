@@ -1,0 +1,17 @@
+ Kaggle Notebook Link (https://www.kaggle.com/code/ruchaprabhu/mini-project/edit/run/207370867)
+Explore our comprehensive analysis and implementation in the Kaggle Notebook:
+
+
+This notebook includes:
+
+ Data loading and preprocessing
+
+ Feature extraction (time-domain and frequency-domain)
+
+ Feature selection using SelectKBest
+
+ Random Forest modeling with hyperparameter tuning
+
+ Model evaluation with classification metrics and a confusion matrix
+
+ Visualizations of feature importance and signal plots
